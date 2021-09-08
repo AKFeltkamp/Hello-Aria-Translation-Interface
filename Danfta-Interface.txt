@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transmission Log</title>
+</head>
+
+<body>
+<p>I will translate, so that the two of you may converse.</p>
+
+<p>Please type your text to the alien in the box below and click the button to send it. The alien's response will appear in a pop-up.</p>
+<br>
+<p><b>Transmission...</b></p>
+<form id="frm1">
+<input type="text" name="fname"><br>
+</form><br>
+<button onclick="gibberish()">Send</button>
+<script>
+function gibberish(prompt) {
+  let answerArray = ['Hello.\n', 
+'The chatter of little beings break on my purpose.\n',
+'They bray and bare their wild openings at the overbearing sky.\n',
+'I have been always temperate, always.\n',
+'‘Be not afraid that I bear your colors everywhere.\n',
+'Why do you subdue you, in the quiet, in the colors that surround you.\n',
+'There is a purple in every stripped growth.\n',
+'Before me lies a mass, a gathering of shapeless time. Where will I go next if not to that place.\n',
+'Tread softly, softly. Move no sand, no dust, no being. Only yourself. Only you.\n',
+'In the leveled brightness of dawn, I find you. Are you on your own, or with another being that you thought you had left behind.\n',
+'To examine my being, natural.\n',
+'Beyond the white is an oasis. But the moon hides the greatest secret.\n',
+'What described beauty greater than you when you topped the crinkled waves of sand and drifted shoreward toward the sun.\n',
+'Have you left behind a gauze of sunlight or moonlight.\n'];
+
+let alien = answerArray[Number(Math.floor(Math.random() * 13))];
+document.getElementById("frm1").reset();
+console.log(alien);
+alert(alien);
+
+};
+</script>
+</body>
+</html>

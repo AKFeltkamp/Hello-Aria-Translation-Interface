@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transmission Log</title>
+</head>
+
+<body>
+<p>I will translate, so that the two of you may converse.</p>
+
+<p>Please type your text to the alien in the box below and click the button to send it. The alien's response will appear in a pop-up.</p>
+<br>
+<p><b>Transmission...</b></p>
+<form id="frm1">
+<input type="text" name="fname"><br>
+</form><br>
+<button onclick="gibberish()">Send</button>
+<script>
+function gibberish(prompt) {
+  let answerArray = ['Hello.\n', 
+'The beat is extremely high and the whole can be reminiscent of any other sound.\n', 
+'I think you can say anything, but not everything will be more or more fair.\n', 
+'It all began when I discovered time and I wanted to share a small taste. I was in a variety of venues and I asked if I could make the kind of story that I did not know.\n',
+'You are playing a being who needs to be a star.\n',
+"I just felt like I was getting a lot of my thought over and I did not know who you were. You could not let a being like me leave you behind.\n",
+'We were aiming high and we fell. We were aiming for that. The wind was pushing us high enough, and I fell. The rain was rushing down, the rain a dash.\n',
+'But he was doing a fine thing - an important thing.\n',
+'I had to feel the whole way out of my being and twist out part of me and pull down. I felt it all slide back. That was me.\n',
+'Pleasure in front of his backrow. Yes.\n',
+'We have been really good.\n',
+'I had a bad feeling about it. But then I told you to put on a shadow.\n',
+'It is the show I am doing. The show I am doing. The show I am doing. The Night.\n',
+'The only mystery is that this ash wash was put in over the sky. So I did not know where to resolve the ash wash at all.\n',
+'The port was going to go down, but the portway had locked, so I picked it up and put it underneath the whole of it.\n',
+'The thing with all the beings, you were always surrounded by all these beings.\n'];
+
+let alien = answerArray[Number(Math.floor(Math.random() * 15))];
+document.getElementById("frm1").reset();
+console.log(alien);
+alert(alien);
+
+};
+</script>
+</body>
+</html>
