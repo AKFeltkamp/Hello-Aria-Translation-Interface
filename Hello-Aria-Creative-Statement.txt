@@ -1,0 +1,7 @@
+Project Description and Creator's Note
+
+The "Hello Aria" project lives at https://helloaria.weebly.com/. You can read about its inspiration and see its published form at https://www.baitswit.ch/hello-aria.
+
+"Hello Aria" was created as an interactive fiction work during the COVID-19 quarantine as part of Bait/Switch's Fall 2020 collection. It utilizes Javascript to simulate a translated conversation between the user and an alien being.
+
+As I explain in the Bait/Switch interview, here's one of my creative messages that I was exploring through this program: "We're all stuck inside, so where would you want to go? What would you want to do? I decided that we would go to outer space, and try to talk to an alien. You expect that the computer you're using will be able to translate, and it does translate, but there's no connection. That's what I wanted to play with."
